@@ -78,7 +78,7 @@ function transformarJSONA(jsonA, jsonX) {
 }
 
 // Ejemplo de uso
-const rutaExcel = "./input_files/excel/pacientes.xls"; // Ruta del archivo Excel
+const rutaExcel = "./love/input_files/excel/pacientes.xls"; // Ruta del archivo Excel
 const jsonA = leerExcelComoJSON(rutaExcel); // Leer Excel como JSON A
 const jsonC = transformarJSONA(jsonA, jsonX); // Transformar JSON A a JSON C
 
